@@ -1,4 +1,4 @@
-# Hybrid Camera Unicycle: reproducible code for the L-CSS bearing-invariance revision
+# Hybrid Camera Unicycle: reproducible code for the bearing-invariance paper
 
 This repository reproduces the numerical calculations and implementation-level
 certificates used in the revised manuscript **“Bearing Invariance and Robust
