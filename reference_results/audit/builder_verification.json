@@ -1,0 +1,65 @@
+{
+  "symbolic_identity": {
+    "pass": true,
+    "residual": "0"
+  },
+  "random_formula": {
+    "pass": true,
+    "max_abs_error": 7.105427357601002e-15,
+    "n": 25000
+  },
+  "barrier_inequality": {
+    "pass": true,
+    "worst_violation": -0.012395945849823065,
+    "worst_case": {
+      "E": 1.5051594138970616e-05,
+      "D": 0.35451146565335045,
+      "side": 1,
+      "theta_hat": 1.5708035831991458,
+      "psi_hat": 2.260280248446187
+    },
+    "n": 75000
+  },
+  "orientation_register_independence": {
+    "pass": true,
+    "max_abs_deviation": 2.220446049250313e-16
+  },
+  "cubic_kr": {
+    "pass": true,
+    "max_exact_to_bound_ratio": 1.0000003829306496
+  },
+  "fixed_point": {
+    "pass": true,
+    "max_abs_residual": 2.842170943040401e-14,
+    "n": 20000
+  },
+  "L_g": {
+    "L_g": 0.872363634542917,
+    "argmax_abs": 1.0407879875057247,
+    "signed_argmax": 1.0407879875057247
+  },
+  "threshold_resolution": [
+    {
+      "n_grid": 1001,
+      "threshold": 0.3856884621491212,
+      "outward_at_threshold": -1.0130785099704553e-15,
+      "e_theta_at_max": 0.3856884621491212,
+      "psi_hat_at_max": -5.026548245743669
+    },
+    {
+      "n_grid": 4001,
+      "threshold": 0.3856884621491212,
+      "outward_at_threshold": -1.0130785099704553e-15,
+      "e_theta_at_max": 0.3856884621491212,
+      "psi_hat_at_max": -5.026548245743669
+    },
+    {
+      "n_grid": 16001,
+      "threshold": 0.3856884621491212,
+      "outward_at_threshold": -1.0130785099704553e-15,
+      "e_theta_at_max": 0.3856884621491212,
+      "psi_hat_at_max": -5.026548245743669
+    }
+  ],
+  "all_core_checks_passed": true
+}

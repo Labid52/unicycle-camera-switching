@@ -1,0 +1,12 @@
+Certified-visibility quantities (closed form; see certify.py for checks)
+==========================================================================
+gain set                (C)   theta*   Theta  margin  D*[rad/s]
+--------------------------------------------------------------------------
+baseline                  Y    1.311   1.885   0.574      1.571
+reduced k_psi             Y    0.980   1.885   0.905      1.571
+increased k_theta         Y    1.143   1.885   0.742      3.142
+wide overlap d=pi/4       Y    1.178   2.356   1.178      3.142
+--------------------------------------------------------------------------
+(C): strict-FOV condition (Y implies that the certified flow does not reach the camera guard).
+theta*: certified bearing reach bound; margin = Theta - theta* (angular safety to FOV edge).
+D* = k_theta*pi/2: exact persistent yaw-disturbance threshold preserving core invariance.

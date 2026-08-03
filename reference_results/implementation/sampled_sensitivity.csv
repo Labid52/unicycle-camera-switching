@@ -1,0 +1,5 @@
+h_theta_s,h_psi_s_simulation_only,n_theta_deg,n_psi_deg_simulation_only,fixed_point_exists,E_theta_deg,barrier_margin,false_switch_safe,certified,orientation_age_in_theorem
+0.005,0.01,0.0,0.0,True,2.3877551020408165,1.2876879266950394,True,True,not used
+0.01,0.1,0.0,5.0,True,4.875,0.989093000569096,True,True,not used
+0.02,0.5,0.0,20.0,True,10.173913043478262,0.3381673816222641,True,True,not used
+0.01,0.02,0.25,0.5,True,5.135416666666668,0.9575925466508569,True,True,not used

@@ -1,0 +1,9 @@
+Run from the project root after installing requirements.txt:
+
+1. python run_project.py implementation --out results
+2. python run_project.py nominal --quick --out results
+3. python run_project.py audit --out results
+4. python run_project.py collect --out results
+
+For the full nominal certification grids, omit --quick in step 2.
+Each step is intentionally a separate Python invocation.

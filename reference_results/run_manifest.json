@@ -1,0 +1,13 @@
+{
+  "implementation_sections": [
+    "disturbance_tradeoff",
+    "fig2_full_grid_delta",
+    "fig2_full_grid_ratio",
+    "implementation_thresholds",
+    "sampled_dynamic_checks",
+    "sampled_sensitivity",
+    "w_bound_conservatism"
+  ],
+  "implementation_verification_passed": true,
+  "manuscript_figure_directory": "/mnt/data/final_stage_test/figures"
+}

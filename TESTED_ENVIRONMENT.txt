@@ -1,0 +1,11 @@
+Tested build environment
+========================
+Python: 3.13.5
+NumPy: 2.3.5
+SciPy: 1.17.0
+Matplotlib: 3.10.8
+SymPy: 1.14.0
+
+The source is written for Python 3.10 or later. Install the portable minimum
+requirements from requirements.txt; the versions above record the environment
+used for the final verification run.
